@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border: 1px solid black;
+    height: 40vh;
+    .showcase {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .showcase-text {
+            flex: 2;
+        }
+        .img-container {
+            flex: 1;
+            img {
+                width: 50%;
+                border-radius: 40%;
+            }
+        }
+
+    }
+
+    nav {
+        height: 20%;
+        ul {
+            list-style: none;
+            li {
+                display: inline;
+            }
+
+        }
+    
+    }
+}
